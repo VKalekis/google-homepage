@@ -1,0 +1,128 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 13px;
+    color: blue;
+    min-width: 181px;
+    height: 30px;
+}
+
+.simple-link {
+    color: blue;
+    margin-right: 15px;
+    align-self: center;
+}
+
+.grid-link {
+    color: blue;
+    margin-right: 15px;
+    align-self: center;
+}
+
+.log-in {
+    margin: 0 10px 0 0;
+    font-weight: bold;
+    border: 1px solid #4285f4;
+    color: #fff;
+    border-radius: 2px;
+    padding: 8px 15px 15px 15px;
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+}
+
+.google-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.search-field {
+    display: flex;
+    height: 40px;
+    width: 400px;
+    max-width: 400px;
+    border: 1px solid rgba(78, 72, 72, 0.534);
+    border-radius: 50px;
+    margin: 10px auto;
+}
+
+#microphone {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    padding-left: 5px;
+    margin: auto;
+}
+
+#search {
+    display: flex;
+    opacity: 0.5;
+    height: 15px;
+    width: 15px;
+    padding: 0 5px;
+    margin: auto;
+}
+
+#search-text {
+    border: none;
+    margin: auto 0;
+    outline: none;
+    flex: 100%;
+    font-size: 16px;
+}
+
+.search-buttons-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.search-button {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    margin: 1px 10px;
+    height: 40px;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    padding: 0px 5px;
+}
+
+.search-button:hover {
+    color: black;
+    border: 1px solid #5F6368;
+    ;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f2f2f2;
+    line-height: 30px;
+    border-top: 1px solid #e4e4e4;
+}
+
+.left-footer {
+    float: left;
+    margin-left: 20px;
+}
+
+.right-footer {
+    float: right;
+    margin-right: 20px;
+}
+
+.footer-link {
+    font-size: 13px;
+    color: #5f6368;
+    padding-right: 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
